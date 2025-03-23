@@ -1,10 +1,10 @@
 {
   "name": "SoedirMan",
   "version": "1.0",
-  "authors": ["MuhamadNazihNajmudin"],
-  "description": "Menghindari bot terdekat, hanya menyerang apabila sangat memungkinkan",
+  "authors": ["Nazih, Wafi"],
+  "description": "Fokus menyerangg bot terlambat hingga mati sambil berputar dengan Crazy di tengah arena.",
   "homepage": "",
   "countryCodes": ["id"],
-  "platform": ".Net 6.0",
+  "platform": ".Net 9.0",
   "programmingLang": "C# 10.0"
 }

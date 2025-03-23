@@ -1,0 +1,10 @@
+{
+  "name": "Lari Ada Sule !!!",
+  "version": "1.0",
+  "authors": ["Nazih, Wafi"],
+  "description": "Menghindari bot terdekat, Stay far from Wall",
+  "homepage": "",
+  "countryCodes": ["id"],
+  "platform": ".Net 9.0",
+  "programmingLang": "C# 10.0"
+}

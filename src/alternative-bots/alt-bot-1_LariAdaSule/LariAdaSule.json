@@ -1,10 +1,10 @@
 {
-  "name": "Lari Ada Sule",
+  "name": "Lari Ada Sule !!!",
   "version": "1.0",
-  "authors": ["MuhamadNazihNajmudin"],
-  "description": "Menghindari bot terdekat, hanya menyerang apabila sangat memungkinkan",
+  "authors": ["Nazih, Wafi"],
+  "description": "Greedy: Menghindari bot terdekat, Stay far from Wall",
   "homepage": "",
   "countryCodes": ["id"],
-  "platform": ".Net 6.0",
+  "platform": ".Net 9.0",
   "programmingLang": "C# 10.0"
 }

@@ -1,0 +1,10 @@
+{
+  "name": "Oh Gitu Mainnya Ya",
+  "version": "1.0",
+  "authors": ["Nazih, Wafi"],
+  "description": "Mengincar bot terpencil hingga mati sambil memutarinya sebagai poros secara Crazy",
+  "homepage": "",
+  "countryCodes": ["id"],
+  "platform": ".Net 9.0",
+  "programmingLang": "C# 10.0"
+}

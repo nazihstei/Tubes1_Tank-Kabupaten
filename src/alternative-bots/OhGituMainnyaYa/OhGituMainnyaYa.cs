@@ -21,7 +21,7 @@ public class OhGituMainnyaYa : Bot {
     private HashSet<int> DeadBots;
     private bool isMovingForward; // for crazy move
     private int ErrorHitCount;
-    private int HitByBotCount;
+    private double HitByBotCount;
 
 
     // ----------------- Main to Start -----------------
@@ -191,7 +191,7 @@ public class OhGituMainnyaYa : Bot {
         this.ErrorHitCount = 0;
     }
     public override void OnHitByBullet(HitByBulletEvent e) {
-        this.HitByBotCount++;
+        this.HitByBotCount += e.Bullet.Power;
     }
 
     // ----------------- Additional Method -----------------
@@ -200,7 +200,7 @@ public class OhGituMainnyaYa : Bot {
             if (this.TargetBot != null) {
 
                 // Evaluasi presisi posisi bot
-                if (this.ErrorHitCount > 3) {
+                if (this.ErrorHitCount > 2) {
                     this.TurnGunLeft(360);
                     this.ErrorHitCount = 0;
                 }
@@ -299,23 +299,3 @@ public class OhGituMainnyaYa : Bot {
 			    y <= WallMargin || y >= arenaHeight - WallMargin;
 	}
 }
-
-/*  Keterangan mengenai Bot
-    A. definition and setup
-    1. pada algoritma ini, bot memiliki 2 mode yang non-interuptable, yakni brute scan mode dan lock on target mode. 
-    2. brute scan mode adalah mode untuk menentukan bot musuh yang akan menjadi target di lock on target mode.
-
-    B. brute scan mode
-    1. pada kondisi start, bot akan melakukan pemindaian 360 derajat.
-    2. selama pemindaian, bot mengkomparasi setiap lokasi dari bot yang dipindainya. bot musuh dengan lokasi paling terpencil dari semua bot yang dipindai, memiliki prioritas paling tinggi. 
-    3. selama pemindaian, bot melakukan gerakan di area sekitar tengah dengan gerakan melingkar atau membentuk suatu pola tertentu agar tidak diam (silahkan pilih, jangan lupa untuk memainkan velocity dan arah gerak yang cukup "crazy"), dengan catatan, pola tersebut harus berada di sekitar tengah arena. pada mode ini, radar terpisah dari gun dan body agar dapat memindai dengan cepat.
-    4. setelah menentukan bot dengan prioritas tertinggi, bot memasuki lock on target mode. 
-
-    C. lock on target mode
-    1. pada mode ini, bot hanya tertuju kepada satu bot yang sudah dipilih pada brute scan mode.
-    2. body terpisah dari gun dan radar, gun dan radar saling menyatu dan selalu mengarah ke arah yang sama. 
-    3. bot akan selalu melakukan pergerakan dengan pola tertentu di area sekitar bot target (boleh menggunakan pola yang sama dengan brute scan mode, maupun berbeda), sementara gun dan radar selalu mengarah ke target tanpa peduli sepert apa posisi dan arah gerak bot kita saat ini.  
-    4. perbedaan crazy move antara brute scan mode dan lock on target mode, adalah titik pusanya. brute scan mode memiliki titik pusat tepat di tengah arena, dan tidak boleh keluar dari jangkauan tertentu. sedangkan, lock on target mode, memiliki titik pusat berupa titik pada jarak tertentu dari target sedemikian sehingga radius batas pola gerakan tidak menyentuh wall.
-    5. bot akan menembak ke target apabila gunheat=0. pikirkan baik-baik "error value" akibat gerakan bot kita, maupun gerakan bot target. pikirkan pula firepower yang harus dibuat dengan mempertimbangkan jarak, kecepatan bullet, dan energy risk. 
-    6. bot akan keluar dari lock on target mode dan masuk ke brute scan mode untuk mengevaluasi posisi terbaru dari bot-bot musuh apabila bot kita tertembak oleh bot lain sebanyak 5x.
-*/

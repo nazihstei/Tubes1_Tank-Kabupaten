@@ -177,7 +177,7 @@ public class SoedirMan : Bot {
 
             // Evaluasi presisi posisi bot
             if (this.TargetBot != null) {
-                if (this.ErrorCount > 3) {
+                if (this.ErrorCount > 2) {
                     this.TurnGunLeft(360);
                     this.ErrorCount = 0;
                 }
@@ -238,23 +238,3 @@ public class SoedirMan : Bot {
         } 
     }
 }
-
-/*  Keterangan mengenai Bot
-    A. definition and setup
-    1. pada algoritma ini, bot memiliki 2 mode yang non-interuptable, yakni brute scan mode dan lock on target mode.
-    2. brute scan mode adalah mode untuk menentukan bot musuh yang akan menjadi target di lock on target mode.
-
-    B. brute scan mode
-    1. pada kondisi start, bot akan melakukan pemindaian 360 derajat sebanyak 2 putaran.
-    2. selama pemindaian, bot mengkomparasi setiap speed dari bot yang dipindainya. bot musuh dengan speed rendah memiliki prioritas yang lebih tinggi.
-    3. selama pemindaian, bot melakukan gerakan di area sekitar tengah dengan gerakan melingkar atau membentuk suatu pola tertentu agar tidak diam (silahkan pilih, jangan lupa untuk memainkan velocity dan arah gerak yang cukup "crazy"), dengan catatan, pola tersebut harus berada di sekitar tengah arena. pada mode ini, radar terpisah dari gun dan body agar dapat memindai dengan cepat.
-    4. pemindaian sebanyak 2 putaran bertujuan untuk mengkomparasi perpindahan setiap bot musuh, bot musuh dengan perpindahan yang rendah memiliki prioritas lebih tinggi.
-    5. setelah menentukan bot dengan prioritas tertinggi dari kedua aspek tersebut, bot memasuki lock on target mode.
-
-    C. lock on target mode
-    1. pada mode ini, bot hanya tertuju kepada satu bot yang sudah dipilih pada brute scan mode.
-    2. body terpisah gun dan radar, gun dan radar saling menyatu dan selalu mengarah ke arah yang sama.
-    3. bot akan selalu melakukan pergerakan dengan pola tertentu di sekitar area tengah (boleh menggunakan pola yang sama dengan brute scan mode, maupun berbeda), sementara gun dan radar selalu mengarah ke target tanpa peduli sepert apa posisi dan arah gerak bot kita saat ini. 
-    4. bot akan menembak ke target apabila gunheat=0. pikirkan baik-baik "error value" akibat gerakan bot kita, maupun gerakan bot target. pikirkan pula firepower yang harus dibuat dengan mempertimbangkan jarak, kecepatan bullet, dan energy risk.
-    5. bot berada dalam lock on target sampai target mati. setelah target mati, bot akan kembali ke brute scan mode untuk mencari target selanjutnya.
-*/

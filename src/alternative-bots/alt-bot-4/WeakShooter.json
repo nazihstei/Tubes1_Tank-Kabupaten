@@ -1,0 +1,10 @@
+{
+  "name": "WeakShooter",
+  "version": "1.0",
+  "authors": ["Awafi","Nazih"],
+  "description": "Penyuka kaum lemah",
+  "homepage": "",
+  "countryCodes": ["id"],
+  "platform": ".Net 9.0",
+  "programmingLang": "C# 10.0"
+}

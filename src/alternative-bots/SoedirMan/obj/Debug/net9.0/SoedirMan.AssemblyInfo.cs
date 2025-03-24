@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SoedirMan")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f871e044697625946b404a45b90d2daedf44792")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d5dd6d27375aba63246bd5480e1b0d8ffbd2ef6")]
 [assembly: System.Reflection.AssemblyProductAttribute("SoedirMan")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SoedirMan")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

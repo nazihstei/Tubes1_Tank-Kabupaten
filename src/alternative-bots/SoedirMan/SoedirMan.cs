@@ -196,7 +196,7 @@ public class SoedirMan : Bot {
             // Perubahan arah tiba-tiba secara acak
             if ((int)(this.X + this.Y) % 3 == 0) {
                 this.isMovingForward = !this.isMovingForward;
-                this.SetTurnLeft(rand.Next(-90, 90));
+                this.SetTurnLeft(rand.Next(-180, 180));
             }
             // Jika keluar dari batas, putar kembali ke tengah
             if (this.X < this.ArenaWidth/8 || this.X > this.ArenaWidth/4 || this.Y < this.ArenaHeight/8 || this.Y > this.ArenaWidth/4) {

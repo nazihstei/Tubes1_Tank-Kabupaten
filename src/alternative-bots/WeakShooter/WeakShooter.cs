@@ -9,7 +9,7 @@ public class WeakShooter : Bot
         new WeakShooter().Start();
     }
 
-    WeakChaser() : base(BotInfo.FromFile("WeakShooter.json")) { }
+    WeakShooter() : base(BotInfo.FromFile("WeakShooter.json")) { }
 
     private EnemyBot targetBot = null;
 

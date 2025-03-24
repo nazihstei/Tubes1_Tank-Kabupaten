@@ -1,32 +1,33 @@
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\bin\Debug\net9.0\OhGituMainnyaYa.exe
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\bin\Debug\net9.0\OhGituMainnyaYa.deps.json
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\bin\Debug\net9.0\OhGituMainnyaYa.runtimeconfig.json
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\bin\Debug\net9.0\OhGituMainnyaYa.dll
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\bin\Debug\net9.0\OhGituMainnyaYa.pdb
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\bin\Debug\net9.0\Microsoft.Build.Locator.dll
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Binder.dll
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\bin\Debug\net9.0\Microsoft.Extensions.Configuration.FileExtensions.dll
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Json.dll
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\bin\Debug\net9.0\Newtonsoft.Json.dll
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\bin\Debug\net9.0\Robocode.TankRoyale.BotApi.dll
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\bin\Debug\net9.0\SVG.dll
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\bin\Debug\net9.0\System.Drawing.Common.dll
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\bin\Debug\net9.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\obj\Debug\net9.0\OhGituMainnyaYa.csproj.AssemblyReference.cache
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\obj\Debug\net9.0\OhGituMainnyaYa.GeneratedMSBuildEditorConfig.editorconfig
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\obj\Debug\net9.0\OhGituMainnyaYa.AssemblyInfoInputs.cache
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\obj\Debug\net9.0\OhGituMainnyaYa.AssemblyInfo.cs
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\obj\Debug\net9.0\OhGituMainnyaYa.csproj.CoreCompileInputs.cache
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\obj\Debug\net9.0\OhGituMa.AD454D82.Up2Date
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\obj\Debug\net9.0\OhGituMainnyaYa.dll
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\obj\Debug\net9.0\refint\OhGituMainnyaYa.dll
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\obj\Debug\net9.0\OhGituMainnyaYa.pdb
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\obj\Debug\net9.0\OhGituMainnyaYa.genruntimeconfig.cache
-D:\Kuliah\ITB\Semester 4\Algorithm Strategy\# Tugas Besar\tubes-stima\tubes1-if2211-starter-pack-1.0\sample-bots-csharp-0.30.0\OhGituMainnyaYa\obj\Debug\net9.0\ref\OhGituMainnyaYa.dll
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\bin\Debug\net9.0\OhGituMainnyaYa.exe
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\bin\Debug\net9.0\OhGituMainnyaYa.deps.json
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\bin\Debug\net9.0\OhGituMainnyaYa.runtimeconfig.json
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\bin\Debug\net9.0\OhGituMainnyaYa.dll
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\bin\Debug\net9.0\OhGituMainnyaYa.pdb
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\bin\Debug\net9.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Json.dll
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\bin\Debug\net9.0\Newtonsoft.Json.dll
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\bin\Debug\net9.0\Robocode.TankRoyale.BotApi.dll
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\bin\Debug\net9.0\SVG.dll
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\bin\Debug\net9.0\System.Drawing.Common.dll
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\bin\Debug\net9.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\obj\Debug\net9.0\OhGituMainnyaYa.csproj.AssemblyReference.cache
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\obj\Debug\net9.0\OhGituMainnyaYa.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\obj\Debug\net9.0\OhGituMainnyaYa.AssemblyInfoInputs.cache
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\obj\Debug\net9.0\OhGituMainnyaYa.AssemblyInfo.cs
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\obj\Debug\net9.0\OhGituMainnyaYa.csproj.CoreCompileInputs.cache
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\obj\Debug\net9.0\OhGituMainnyaYa.sourcelink.json
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\obj\Debug\net9.0\OhGituMa.AD454D82.Up2Date
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\obj\Debug\net9.0\OhGituMainnyaYa.dll
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\obj\Debug\net9.0\refint\OhGituMainnyaYa.dll
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\obj\Debug\net9.0\OhGituMainnyaYa.pdb
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\obj\Debug\net9.0\OhGituMainnyaYa.genruntimeconfig.cache
+D:\GitHub\Tubes1_Tank-Kabupaten\src\alternative-bots\OhGituMainnyaYa\obj\Debug\net9.0\ref\OhGituMainnyaYa.dll

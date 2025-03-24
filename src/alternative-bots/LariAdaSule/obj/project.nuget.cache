@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yUWt6O4tiSg=",
+  "dgSpecHash": "Ad4vc3BOQaQ=",
   "success": true,
-  "projectFilePath": "D:\\Kuliah\\ITB\\Semester 4\\Algorithm Strategy\\# Tugas Besar\\tubes-stima\\tubes1-if2211-starter-pack-1.0\\sample-bots-csharp-0.30.0\\LariAdaSule\\LariAdaSule.csproj",
+  "projectFilePath": "D:\\GitHub\\Tubes1_Tank-Kabupaten\\src\\alternative-bots\\LariAdaSule\\LariAdaSule.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nazihstei\\.nuget\\packages\\microsoft.build.locator\\1.7.8\\microsoft.build.locator.1.7.8.nupkg.sha512",
     "C:\\Users\\nazihstei\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

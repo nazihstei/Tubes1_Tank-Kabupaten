@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Kuliah\\ITB\\Semester 4\\Algorithm Strategy\\# Tugas Besar\\tubes-stima\\tubes1-if2211-starter-pack-1.0\\sample-bots-csharp-0.30.0\\SoedirMan\\SoedirMan.csproj": {}
+    "D:\\GitHub\\Tubes1_Tank-Kabupaten\\src\\alternative-bots\\SoedirMan\\SoedirMan.csproj": {}
   },
   "projects": {
-    "D:\\Kuliah\\ITB\\Semester 4\\Algorithm Strategy\\# Tugas Besar\\tubes-stima\\tubes1-if2211-starter-pack-1.0\\sample-bots-csharp-0.30.0\\SoedirMan\\SoedirMan.csproj": {
+    "D:\\GitHub\\Tubes1_Tank-Kabupaten\\src\\alternative-bots\\SoedirMan\\SoedirMan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Kuliah\\ITB\\Semester 4\\Algorithm Strategy\\# Tugas Besar\\tubes-stima\\tubes1-if2211-starter-pack-1.0\\sample-bots-csharp-0.30.0\\SoedirMan\\SoedirMan.csproj",
+        "projectUniqueName": "D:\\GitHub\\Tubes1_Tank-Kabupaten\\src\\alternative-bots\\SoedirMan\\SoedirMan.csproj",
         "projectName": "SoedirMan",
-        "projectPath": "D:\\Kuliah\\ITB\\Semester 4\\Algorithm Strategy\\# Tugas Besar\\tubes-stima\\tubes1-if2211-starter-pack-1.0\\sample-bots-csharp-0.30.0\\SoedirMan\\SoedirMan.csproj",
+        "projectPath": "D:\\GitHub\\Tubes1_Tank-Kabupaten\\src\\alternative-bots\\SoedirMan\\SoedirMan.csproj",
         "packagesPath": "C:\\Users\\nazihstei\\.nuget\\packages\\",
-        "outputPath": "D:\\Kuliah\\ITB\\Semester 4\\Algorithm Strategy\\# Tugas Besar\\tubes-stima\\tubes1-if2211-starter-pack-1.0\\sample-bots-csharp-0.30.0\\SoedirMan\\obj\\",
+        "outputPath": "D:\\GitHub\\Tubes1_Tank-Kabupaten\\src\\alternative-bots\\SoedirMan\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nazihstei\\AppData\\Roaming\\NuGet\\NuGet.Config"

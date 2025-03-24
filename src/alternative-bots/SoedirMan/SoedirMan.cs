@@ -177,7 +177,7 @@ public class SoedirMan : Bot {
 
             // Evaluasi presisi posisi bot
             if (this.TargetBot != null) {
-                if (this.ErrorCount > 2) {
+                if (this.ErrorCount > 1) {
                     this.TurnGunLeft(360);
                     this.ErrorCount = 0;
                 }
@@ -232,7 +232,7 @@ public class SoedirMan : Bot {
             double predictedY = this.TargetBot.Y + Math.Sin(this.TargetBot.direction * Math.PI/180) * this.TargetBot.speed * timeToHit;
             // Hitung bearing ke posisi yang diprediksi
             double predictedBearing = this.GunBearingTo(predictedX, predictedY);
-            this.TurnGunLeft(predictedBearing);
+            this.TurnGunLeft(predictedBearing*1.25);
         } catch (Exception ex) {
             Console.WriteLine($"Error di SetGunPrecision: {ex.Message}");
         } 

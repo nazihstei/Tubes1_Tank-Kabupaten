@@ -119,7 +119,7 @@ public class LariAdaSule : Bot {
     // ----------------- Additional Method -----------------
     public double CalculateFirepower() {
         try {
-            return Math.Max(0.1, 100/this.TargetBot.distance);
+            return Math.Max(0.1, 250/this.TargetBot.distance);
         } catch (Exception ex) {
             Console.WriteLine($"Error di CalculateFirepower: {ex.Message}");
             return -1;
@@ -136,7 +136,7 @@ public class LariAdaSule : Bot {
             double predictedY = this.TargetBot.Y + Math.Sin(this.TargetBot.direction * Math.PI/180) * this.TargetBot.speed * timeToHit;
             // Hitung bearing ke posisi yang diprediksi
             double predictedBearing = this.GunBearingTo(predictedX, predictedY);
-            this.TurnGunLeft(predictedBearing);
+            this.TurnGunLeft(predictedBearing*1.3);
         } catch (Exception ex) {
             Console.WriteLine($"Error di SetGunPrecision: {ex.Message}");
         } 

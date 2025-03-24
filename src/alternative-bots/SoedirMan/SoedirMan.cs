@@ -215,7 +215,7 @@ public class SoedirMan : Bot {
     }
     public double CalculateFirepower() {
         try {
-            return Math.Min(3, 400/this.TargetBot.distance);
+            return Math.Max(0.2, 300/this.TargetBot.distance);
         } catch (Exception ex) {
             Console.WriteLine($"Error di CalculateFirepower: {ex.Message}");
             return -1;

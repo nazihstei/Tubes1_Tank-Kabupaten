@@ -53,11 +53,12 @@ public class LariAdaSule : Bot {
             this.AdjustRadarForBodyTurn = true;
             this.margin = Math.Min(this.ArenaWidth, this.ArenaHeight) / 3;
             while (this.IsRunning) {
-                this.TurnRadarLeft(360);
+                this.SetTurnRadarLeft(360);
                 if (this.TargetBot != null) {
                     double firepower = this.CalculateFirepower();
                     this.SetGunPrecision(firepower);
                     this.SetFire(firepower);
+                    this.TargetBot = null;
                 }
                 if (this.ClosestBot != null) {
                     this.AvoidClosestBot();
@@ -77,18 +78,9 @@ public class LariAdaSule : Bot {
                 double bearing = this.BearingTo(this.ClosestBot.X, this.ClosestBot.Y);
                 this.SetTurnRight(bearing);
                 this.SetForward(200);
-                this.Go();
             }
         } catch (Exception ex) {
             Console.WriteLine($"Error di AvoidClosestBot: {ex.Message}");
-        }
-    }
-    public void MoveTo(double X, double Y) {
-        try {
-            this.SetTurnLeft(this.BearingTo(X, Y));
-            this.SetForward(this.DistanceTo(X, Y));
-        } catch (Exception ex) {
-            Console.WriteLine($"Error di MoveTo: {ex.Message}");
         }
     }
 
@@ -105,9 +97,10 @@ public class LariAdaSule : Bot {
             }
             if (this.TargetBot == null) {
                 this.TargetBot = new EnemyBot(this, e);
-            } else if (this.GunBearingTo(e.X, e.Y) < this.GunBearingTo(this.TargetBot.X, this.TargetBot.Y)) {
+            } else if (this.GunBearingTo(e.X, e.Y)<this.GunBearingTo(this.TargetBot.X, this.TargetBot.Y)) {
                 this.TargetBot = new EnemyBot(this, e);
             }
+
             this.Rescan();
         } catch (Exception ex) {
             Console.WriteLine($"Error di OnScannedBot: {ex.Message}");
@@ -126,7 +119,7 @@ public class LariAdaSule : Bot {
     // ----------------- Additional Method -----------------
     public double CalculateFirepower() {
         try {
-            return Math.Min(3, 200/this.TargetBot.distance);
+            return Math.Max(0.1, 100/this.TargetBot.distance);
         } catch (Exception ex) {
             Console.WriteLine($"Error di CalculateFirepower: {ex.Message}");
             return -1;
@@ -158,5 +151,13 @@ public class LariAdaSule : Bot {
 		return 	x <= WallMargin || x >= arenaWidth - WallMargin ||
 			    y <= WallMargin || y >= arenaHeight - WallMargin;
 	}
+    public void MoveTo(double X, double Y) {
+        try {
+            this.SetTurnLeft(this.BearingTo(X, Y));
+            this.SetForward(this.DistanceTo(X, Y));
+        } catch (Exception ex) {
+            Console.WriteLine($"Error di MoveTo: {ex.Message}");
+        }
+    }
 
 }

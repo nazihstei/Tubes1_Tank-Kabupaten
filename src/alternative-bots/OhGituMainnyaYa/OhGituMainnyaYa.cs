@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Drawing.Printing;
 using System.Linq;
 using System.Text.Encodings.Web;
 using Robocode.TankRoyale.BotApi;
@@ -83,7 +84,7 @@ public class OhGituMainnyaYa : Bot {
             }
             this.AdjustRadarForGunTurn = true;
 
-            // Scan musuh sebanyak 2 putaran
+            // Scan musuh sebanyak 1 putaran
             this.TurnRadarLeft(360);
             if (this.TargetBot != null) {
                 this.TurnRadarLeft(this.RadarBearingTo(this.TargetBot.X, this.TargetBot.Y));
@@ -138,13 +139,13 @@ public class OhGituMainnyaYa : Bot {
         try {
             // Console.WriteLine($"I see a bot {e.ScannedBotId} at ({e.X}, {e.Y}).");
             // Check dead bots
-            if (! this.DeadBots.Contains(e.ScannedBotId)) { // HashSet, not a bruteforce right?
+            if (! this.DeadBots.Contains(e.ScannedBotId)) {
                 // while brute scan mode
                 if (this.BotMode == Mode.BRUTE_SCAN) {
-                    if (this.TargetBot == null) {
-                        this.TargetBot = new EnemyBot(this, e);
-                    } else if (this.TargetBot.speed>e.Speed || (this.TargetBot.speed==e.Speed && this.TargetBot.energy >e.Energy)) {
-                        this.TargetBot = new EnemyBot(this, e);
+                    try {
+                        this.ScannedBots.Add(e.ScannedBotId, new EnemyBot(this, e));
+                    } catch {
+                        this.ScannedBots[e.ScannedBotId] = new EnemyBot(this, e);
                     }
                 // while lock on target mode
                 } else if (this.TargetBot.id == e.ScannedBotId) {
@@ -230,6 +231,10 @@ public class OhGituMainnyaYa : Bot {
                 this.SetTurnRight(this.BearingTo(axis.x, axis.y));
                 this.isMovingForward = true;
             }
+            // Atasi kasus hampir menabrak tembok
+            if (this.IsNearWall(radius)) {
+                this.SetTurnLeft(this.BearingTo(this.ArenaWidth/2, this.ArenaHeight/2));
+            }
             // Ubah arah gerakan agar sulit ditebak
             if (this.isMovingForward) {
                 this.SetForward(100);
@@ -242,7 +247,7 @@ public class OhGituMainnyaYa : Bot {
     }
     public double CalculateFirepower() {
         try {
-            return Math.Min(3, 400/this.TargetBot.distance);
+            return Math.Max(0.2, 300/this.TargetBot.distance);
         } catch (Exception ex) {
             Console.WriteLine($"Error di CalculateFirepower: {ex.Message}");
             return -1;
@@ -283,6 +288,16 @@ public class OhGituMainnyaYa : Bot {
             Console.WriteLine($"Error di SetGunPrecision: {ex.Message}");
         } 
     }
+    public bool IsNearWall(double margin) {
+		double x = this.X;
+		double y = this.Y;
+        double WallMargin = margin;
+		double arenaWidth = this.ArenaWidth;
+		double arenaHeight = this.ArenaHeight;
+		// Jika bot berada dalam jarak WallMargin dari batas arena, event dipicu
+		return 	x <= WallMargin || x >= arenaWidth - WallMargin ||
+			    y <= WallMargin || y >= arenaHeight - WallMargin;
+	}
 }
 
 /*  Keterangan mengenai Bot

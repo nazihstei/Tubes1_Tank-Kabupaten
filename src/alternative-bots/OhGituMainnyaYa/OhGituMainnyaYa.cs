@@ -200,7 +200,7 @@ public class OhGituMainnyaYa : Bot {
             if (this.TargetBot != null) {
 
                 // Evaluasi presisi posisi bot
-                if (this.ErrorHitCount >= 1) {
+                if (this.ErrorHitCount > 1) {
                     this.TurnGunLeft(360);
                     this.ErrorHitCount = 0;
                 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WeakShooter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4cd842175f7d45651b75961452313ed25ff24aa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c0a1b79777d4e22f36baf2ea0cb2a40169b989e")]
 [assembly: System.Reflection.AssemblyProductAttribute("WeakShooter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WeakShooter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
